@@ -73,8 +73,10 @@ button {
     font-size: 48px;
 }
 
-.about .image {
-    content:url(https://images.pexels.com/photos/2625275/pexels-photo-2625275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.about img {
     width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
     flex: 1;
 }
