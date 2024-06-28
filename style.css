@@ -36,6 +36,7 @@ button {
     align-self: flex-start;
     padding: 6px 30px 6px 30px;
     border: none;
+    cursor: pointer;
 }
 
 .headerlinks {
@@ -140,4 +141,26 @@ button {
     text-align: right;
     align-self: center;
     width: 900px;
+}
+
+.interact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 48px;
+    margin: 100px 250px;
+}
+
+.interactTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.interact button {
+    border-style: solid;
+    border-color: #E5E7EB;
+    align-self: center;
 }
